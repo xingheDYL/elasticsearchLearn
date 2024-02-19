@@ -5,6 +5,9 @@ import org.elasticsearch.action.update.UpdateResponse;
 import org.elasticsearch.client.RequestOptions;
 import org.elasticsearch.common.xcontent.XContentType;
 
+/**
+ * 更新数据
+ */
 public class UpdateDoc {
 
     public static void main(String[] args) {

@@ -9,6 +9,9 @@ import org.elasticsearch.client.RestHighLevelClient;
 
 import java.io.IOException;
 
+/**
+ * 删除索引
+ */
 public class DeleteIndex {
     public static void main(String[] args) throws IOException {
         RestHighLevelClient client = new RestHighLevelClient(

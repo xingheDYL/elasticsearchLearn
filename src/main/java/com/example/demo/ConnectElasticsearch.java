@@ -4,6 +4,9 @@ import org.apache.http.HttpHost;
 import org.elasticsearch.client.RestClient;
 import org.elasticsearch.client.RestHighLevelClient;
 
+/**
+ * 连接 ES
+ */
 public class ConnectElasticsearch {
 
     public static void connect(ElasticsearchTask task) {

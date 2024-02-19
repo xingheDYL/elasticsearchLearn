@@ -4,6 +4,9 @@ import org.elasticsearch.action.delete.DeleteRequest;
 import org.elasticsearch.action.delete.DeleteResponse;
 import org.elasticsearch.client.RequestOptions;
 
+/**
+ * 删除数据
+ */
 public class DeleteDoc {
     public static void main(String[] args) {
         ConnectElasticsearch.connect(client -> {

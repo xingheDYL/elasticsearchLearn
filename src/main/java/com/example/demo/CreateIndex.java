@@ -9,6 +9,9 @@ import org.elasticsearch.client.RestHighLevelClient;
 
 import java.io.IOException;
 
+/**
+ * 创建索引
+ */
 public class CreateIndex {
 
     public static void main(String[] args) throws IOException {

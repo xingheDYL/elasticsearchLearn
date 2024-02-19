@@ -6,6 +6,9 @@ import org.elasticsearch.client.RestHighLevelClient;
 
 import java.io.IOException;
 
+/**
+ * 测试连接
+ */
 public class HelloElasticsearch {
 
     public static void main(String[] args) throws IOException {

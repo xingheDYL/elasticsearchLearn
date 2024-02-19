@@ -1,5 +1,8 @@
 package com.example.demo;
 
+/**
+ * ES 模型
+ */
 public class User {
     private String name;
     private String sex;
